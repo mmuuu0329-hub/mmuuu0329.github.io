@@ -15,9 +15,6 @@ html, body {
   height: 100%;
 }
 
-header{
-  background-color:#C8C3DC
-}
 
 body {
   margin: 0;
@@ -29,9 +26,11 @@ body {
         見出し
 -------------------- */
 
-h1{
+header{
         background-color:#939393;
+         border-bottom: groove 0.1em var(--theme-color);
 }
+
 h2, h3 {
   color: var(--theme-color);
   border-bottom: groove 0.1em var(--theme-color);
