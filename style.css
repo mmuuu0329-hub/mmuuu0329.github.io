@@ -29,7 +29,10 @@ body {
         見出し
 -------------------- */
 
-h1, h2, h3 {
+h1{
+        background-color:#939393;
+}
+h2, h3 {
   color: var(--theme-color);
   border-bottom: groove 0.1em var(--theme-color);
 }
